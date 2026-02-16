@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-top: 40px;
+}
+
+.open-modal {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 12px;
+    background: gray;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.modal {
+    margin: 0 auto;
+    background-color: #f44336;
+    top: 30px;
+    width: 40%;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.text {
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+}
+
+.header-footer {
+    color: white;
+    padding: 10px 15px;
+}
