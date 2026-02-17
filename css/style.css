@@ -33,7 +33,6 @@ h1 {
 .modal-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     text-align: left;
 }
 
@@ -43,6 +42,7 @@ h1 {
 }
 
 .header-footer {
+    margin-top: 0;
     color: white;
     padding: 10px 10px;
 }
